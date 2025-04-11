@@ -1,0 +1,190 @@
+Body {
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(192, 216, 246);
+}
+
+h1 {
+    text-align: center;
+    position: fixed top;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    Margin: none;
+    Padding: none;
+    background-color: #556B2F;
+    display: flex;
+    position: fixed top;
+}
+
+
+li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+  
+  @media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+hr {
+    height: 5px;
+    border-width: 0;
+    color: #556B2F;
+    background-color: #556B2F;
+}
+
+@media (min-width: 768px ){
+.container {
+    display: flex; 
+    gap: 20px; 
+  }
+
+}
+
+  .fishing-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .fishing-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .reason-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reason-list li {
+    background: #e3f2fd;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1em;
+  }
+
+  .reason-list li:hover {
+    background-color: #bbdefb;
+    transform: translateX(5px); 
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 6px;
+  }
+  
+  .fishing-image {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .fishing-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+    
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax 250px, 1fr);
+    gap: 20px;
+  }
+  
+  .photo-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .photo-item p {
+    margin-top: 10px;
+    font-size: 0.95em;
+    color: #555;
+  }
+  
+ .fish-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .fish-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .fish-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .fish-card img {
+    width: 100%;
+    height: auto;         
+    object-fit: contain;  
+    display: block;
+  }
+  
+  .fish-info {
+    padding: 15px;
+  }
+  
+  .fish-info h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #556B2F;
+  }
+  
+  .fish-info p {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+  
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #556B2F;
+    color: white;
+    text-align: center;
+ }
+
+ 
+  
