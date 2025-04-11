@@ -130,11 +130,6 @@ hr {
     border-radius: 4px;
   }
   
-  .photo-item p {
-    margin-top: 10px;
-    font-size: 0.95em;
-    color: #555;
-  }
   
  .fish-list {
     display: grid;
